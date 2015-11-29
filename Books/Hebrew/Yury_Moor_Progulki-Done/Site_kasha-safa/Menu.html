@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<meta charset=utf-8 />
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by anonymous (http://jsbin.com/OZucIHI/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<title>JS Bin</title>
+
+<style id="jsbin-css">
+* {
+			background-color: #D0A9AC;
+		}
+		h1 {
+			color: #F0F;
+		}
+		#homeNav {
+		}
+		#homeNav span a {	
+			color: #005580;
+		}
+		selected {
+			border-bottom: 1px solid #fff;
+			color: #fff;
+		}
+</style>
+</head>
+<body>
+  <div class="homepage">
+		<div class="homepage-body" id="homeNav">
+			<h1>
+				Welcome to Zeus E-Referrals</h1>
+			<hr />
+			<div id="tabContainer">
+			<a id="home" href='#' onclick="test(this.id, ); return false;"> Home</a> |
+			<a id="about" href='Yumor/1.html' onclick="test(this.id); return false;"> About Zeus </a> |
+			<a id="contact-us" href='#' onclick="test(this.id); return false;" > Contact Us</a> |
+			<a id="login" href='#' onclick="test(this.id); return false;"> Login</a>
+			</div>
+		</div>
+<script>
+$(function () {
+			$('#home').removeClass().removeAttr('style').css('background-color', '#E7DE46');
+		});
+
+		function test(id, ref) {
+			$('#' + id).siblings().css("background-color", "inherit");
+			$('#' + id).removeClass().removeAttr('style').css('background-color', '#E7DE46');
+
+		}
+</script>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<meta charset=utf-8 />
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by anonymous (http://jsbin.com/OZucIHI/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<title>Сайт каша-сафа קשה-שפה</title>
+
+<style id="jsbin-css">
+* {
+			background-color: #F2F2F2;
+		}
+		h1 {
+			color: #F0F;
+		}
+		#homeNav {
+		}
+		#homeNav span a {	
+			color: #005580;
+		}
+		selected {
+			border-bottom: 1px solid #fff;
+			color: #fff;
+		}
+</style>
+</head>
+<body>
+  <div class="homepage">
+		<div class="homepage-body" id="homeNav">
+			<div id="tabContainer">
+       	           		<a>Сайт каша-сафа קשה-שפה</a> 
+				<a id="home" href='#' onclick="test(this.id,Progulki/Oglavlenie.html); return false;"> Прогулки с Ивритом</a> |
+				<a id="yumor" href='#' onclick="test(this.id,Yumor/1.html); return false;">Юмор</a> |
+				<a id="news" href='#' onclick="test(this.id, news_javascript.html); return false;"> Новости Израиля</a>
+			</div>
+		</div>
+<script>
+$(function () {
+			$('#home').removeClass().removeAttr('style').css('background-color', '#848484');
+		});
+
+		function test(id,href) {
+			$('#' + id).siblings().css("background-color", "inherit");
+			$('#' + id).removeClass().removeAttr('style').css('background-color', '#848484');
+			top.document.getElementsByName( "bottom" )[ 0 ].src = ref
+		}
+</script>
