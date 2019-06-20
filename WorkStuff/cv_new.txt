@@ -1,0 +1,22 @@
+Ckp development infrastructure production and users env 
+Buid system, gmake,mvn,build project management, pkg
+Git, gerrit, gitlab, Opengrok
+Monitoring tests in Nagios
+Devops deployment system of ckp products
+Jira Administration and support for RnD
+
+Providing RnD Trainings of Dev infrastructure tools and methodologies,
+including Git, Gerrit, Build system, Maven, user compilation process
+ 
+Courses:
+	Python 
+	Elastic Search
+	Maven
+	Time management
+	SQL Server
+
+3rd place in CKP innovation seminar, with real product deployment
+
+
+
+
